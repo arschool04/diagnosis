@@ -8,7 +8,7 @@
  */
 let kaisi = () => {
 	// アプリのタイトルを設定する
-	ars.taitoru('診断アプリのタイトル');
+	ars.taitoru('電車診断');
 
 	// 質問1を表示する
 	miseruQ1();
@@ -25,16 +25,16 @@ let miseruQ1 = () => {
 	let q = new Situmon(1);
 
 	// 質問文
-	q.bun('問題文の表示');
+	q.bun('なんの電車が好きですか？');
 
 	// 選択肢が文章の場合はt, 画像の場合はiをセット
 	q.syurui('t');
 
 	// 選択肢を追加していく
-	q.sentakusi('選択肢1');
-	q.sentakusi('選択肢2');
-	q.sentakusi('選択肢3');
-	q.sentakusi('選択肢4');
+	q.sentakusi('神奈川県から東京都まで行ける東急東横線');
+	q.sentakusi('ぐるぐる回る山手線');
+	q.sentakusi('千葉駅から三鷹駅まで行ける総武線');
+	q.sentakusi('ぶっ飛ばして速く行ける湘南新宿ライン');
 
 };
 

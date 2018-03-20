@@ -31,28 +31,28 @@ let miseruKekka = (kekka) => {
 
 	//結果が1だった場合
 	if(kekka == 1){
-		midasi = '診断結果1の見出し';
-		gazo = 'img/sample/r1.jpg';
-		setumei = '診断結果1の説明文がここに入ります';
+		midasi = '副都心線';
+		gazo = 'img/f.jpg';
+		setumei = 'あなたのタイプは副都心線です';
 
 	}
 	//結果が2だった場合
 	else if(kekka == 2){
-		midasi = '診断結果2の見出し';
-		gazo = 'img/sample/r2.jpg';
-		setumei = '診断結果2の説明文がここに入ります';
+		midasi = '京浜東北線';
+		gazo = 'img/k.jpg';
+		setumei = 'あなたのタイプは京浜東北線です';
 	}
 	//結果が3だった場合
 	else if(kekka == 3){
-		midasi = '診断結果3の見出し';
-		gazo = 'img/sample/r3.jpg';
-		setumei = '診断結果3の説明文がここに入ります';
+		midasi = '中央線';
+		gazo = 'img/t.jpg';
+		setumei = 'あなたのタイプは中央線です';
 	}
 	//結果が4だった場合
 	else if(kekka == 4){
-		midasi = '診断結果4の見出し';
-		gazo = 'img/sample/r4.jpg';
-		setumei = '診断結果4の説明文がここに入ります';
+		midasi = '埼京線です';
+		gazo = 'img/s.jpg';
+		setumei = '';
 	}
 
 	//結果を画面に表示する
@@ -64,6 +64,6 @@ let miseruKekka = (kekka) => {
 	ars.miseruGazo(gazo);
 
 	// 診断結果の詳細を表示
-	ars.miseruSetumei(setumei);
+	ars.miseruSetumei(setumei);j
 
 };
